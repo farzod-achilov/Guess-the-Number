@@ -1,0 +1,47 @@
+.game {
+  &__header {
+    font-size: 39px;
+    padding-bottom: 25px;
+  }
+  &__message {
+    font-size: 20px;
+    padding-bottom: 30px;
+  }
+  &__input {
+    padding: 5px;
+    border-radius: 50px;
+  }
+  &__btn {
+    display: none;
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+table,
+td {
+  border: 1px solid #333;
+}
+
+thead,
+tfoot {
+  background-color: #333;
+  color: #fff;
+}
